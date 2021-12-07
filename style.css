@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+*{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    width: 100%;
+    height: 75px;
+    background-color: #505d61;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: relative;
+    
+    z-index: 1;
+}
+nav .logo{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+nav .logo p{
+    float: left;
+    color: #fff;
+    text-transform: uppercase;
+}
+nav ul{
+    float: right;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: capitalize;
+    padding: 0px 22px;
+}
+nav ul li a:hover{
+    color:steelblue;
+}
+
+#searchbox{
+    padding: 5px 15px;
+    width: 700px;
+    height: 40px;
+    border-radius: 10px;
+    
+}
+#searchbox:hover{
+    background-color:steelblue;
+    color: white;
+    
+    
+}
+
+#searchbox::placeholder{
+    color: steelblue;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#searchbox:hover::placeholder{
+    color: white;
+    font-weight:400;
+}
+
+
+
+#searchbtn{
+    color: steelblue;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    width: 200px;
+    height: 35px;
+    position: relative;
+    letter-spacing: 1.5px;
+   
+}
+
+
+#searchbtn:hover{
+    color: white;
+    background-color: steelblue;
+    border-color: black;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+
+}
+
+table{
+    width: 90%;
+    height: 50%;
+    border: 2px solid black;
+    text-align: center;
+    padding: 5px 5px;
+    /* border-collapse: collapse; */
+    
+}
+td{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+
+
